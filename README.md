@@ -29,10 +29,12 @@ Follow these steps to set up the environment for running this script:<br><br>
 
 ## Usage<br><br>
 
-The script can be ran using the following command:
+The script can be ran using the following command, CLI is the bottom one you only need to use one or the other one:
 
         node getNFTRank.js
 
+        node getNFTRankCLI.js
+        
 <br><br>You can also specify the mint address of the NFT you want to extract data for by changing the mintAddress variable at the end of the script.<br><br>
 
 ## Output<br><br>
