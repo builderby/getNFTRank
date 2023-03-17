@@ -31,7 +31,7 @@ Follow these steps to set up the environment for running this script:<br><br>
 
 The script can be ran using the following command:
 
-        npm start
+        node getNFTRank.js
 
 <br><br>You can also specify the mint address of the NFT you want to extract data for by changing the mintAddress variable at the end of the script.<br><br>
 
