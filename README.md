@@ -51,7 +51,7 @@ The script will log the NFT's rank and traits to the console:
 
 ## Troubleshooting<br><br>
 
-If you encounter an error when running the script, make sure you have followed all the setup steps correctly and that you have the required dependencies installed. If the problem persists, please open an issue on this repository.
+If you encounter an error when running the script, make sure you have followed all the setup steps correctly and that you have the required dependencies installed. If the problem persists, please open an issue on this repository.<br><br>
 
 ## Buy me a coffee<br><br>
 
