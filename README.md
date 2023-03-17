@@ -2,7 +2,7 @@
 
 # NFT Data Extractor
 
-This script allows you to extract data for a specific NFT from MoonRank. It fetches the HTML for the NFT's page on MoonRank and then uses the JSDOM library to extract the rank and traits of the NFT. The rank and traits are then logged to the console.
+This script allows you to extract data for a specific Solana NFT from MoonRank. It fetches the HTML for the NFT's page on MoonRank and then uses the JSDOM library to extract the rank and traits of the NFT. The rank and traits are then logged to the console.
 
 ## Prerequisites<br><br>
 
