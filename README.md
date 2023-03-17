@@ -1,6 +1,6 @@
 ![Builderby](https://cdn.discordapp.com/attachments/1034314910563323914/1082805122763067412/IMG_06071.png)
 
-# NFT Data Extractor
+# getNFTRank
 
 This script allows you to extract data for a specific Solana NFT from MoonRank. It fetches the HTML for the NFT's page on MoonRank and then uses the JSDOM library to extract the rank and traits of the NFT. The rank and traits are then logged to the console.
 
@@ -19,7 +19,7 @@ Follow these steps to set up the environment for running this script:<br><br>
 
 - Change into the repository directory:
 
-        cd nft-data-extractor
+        cd getNFTRank
 
 - Install the dependencies:
 
