@@ -1,0 +1,14 @@
+{
+  "name": "getnftrank",
+  "version": "1.0.0",
+  "description": "A script to fetch and display NFT rank and traits data from moonrank.app",
+  "main": "getNFTRank.js",
+  "scripts": {
+    "start": "node getNFTRank.js"
+  },
+  "author": "Builderby",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "jsdom": "^17.0.0"
+  }
+}
