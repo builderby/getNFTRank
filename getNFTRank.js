@@ -1,8 +1,9 @@
-import axios from "axios";
-import { JSDOM } from "jsdom";
+const axios = require("axios");
+const { JSDOM } = require("jsdom");
 
 function extractNftTraitsAndRank(html) {
-  const { document } = new JSDOM(html).window;
+  const { window } = new JSDOM(html);
+  const { document } = window;
 
   const rankSpan = document.querySelector(
     "span.text-mr-signature-yellow + span"
@@ -56,8 +57,12 @@ async function fetchNftData(mintAddress) {
 
 const mintAddress = "<NFT_MINT_ADDRESS>";
 
-fetchNftData(mintAddress).then(({ rank, traits }) => {
-  console.log("🎉 NFT data received:");
-  console.log(`Rank: ${rank}`);
-  console.log(`\nTraits:\n${traits}`);
-});
+fetchNftData(mintAddress)
+  .then(({ rank, traits }) => {
+    console.log("🎉 NFT data received:");
+    console.log(`Rank: ${rank}`);
+    console.log(`\nTraits:\n${traits}`);
+  })
+  .catch((error) => {
+    console.error(`❌ Error: ${error}`);
+  });
